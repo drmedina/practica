@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644F227C1CFF30BF00F98446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F227B1CFF30BF00F98446 /* AppDelegate.swift */; };
+		644F227E1CFF30BF00F98446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F227D1CFF30BF00F98446 /* ViewController.swift */; };
+		644F22811CFF30BF00F98446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644F227F1CFF30BF00F98446 /* Main.storyboard */; };
+		644F22831CFF30BF00F98446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644F22821CFF30BF00F98446 /* Assets.xcassets */; };
+		644F22861CFF30BF00F98446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644F22841CFF30BF00F98446 /* LaunchScreen.storyboard */; };
+		644F22911CFF30BF00F98446 /* HolaiPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F22901CFF30BF00F98446 /* HolaiPadTests.swift */; };
+		644F229C1CFF30BF00F98446 /* HolaiPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F229B1CFF30BF00F98446 /* HolaiPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		644F228D1CFF30BF00F98446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644F22701CFF30BE00F98446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644F22771CFF30BF00F98446;
+			remoteInfo = HolaiPad;
+		};
+		644F22981CFF30BF00F98446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644F22701CFF30BE00F98446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644F22771CFF30BF00F98446;
+			remoteInfo = HolaiPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		644F22781CFF30BF00F98446 /* HolaiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		644F227B1CFF30BF00F98446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		644F227D1CFF30BF00F98446 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		644F22801CFF30BF00F98446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		644F22821CFF30BF00F98446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		644F22851CFF30BF00F98446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		644F22871CFF30BF00F98446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644F228C1CFF30BF00F98446 /* HolaiPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaiPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644F22901CFF30BF00F98446 /* HolaiPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaiPadTests.swift; sourceTree = "<group>"; };
+		644F22921CFF30BF00F98446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644F22971CFF30BF00F98446 /* HolaiPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaiPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644F229B1CFF30BF00F98446 /* HolaiPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaiPadUITests.swift; sourceTree = "<group>"; };
+		644F229D1CFF30BF00F98446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		644F22751CFF30BF00F98446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644F22891CFF30BF00F98446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644F22941CFF30BF00F98446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		644F226F1CFF30BE00F98446 = {
+			isa = PBXGroup;
+			children = (
+				644F227A1CFF30BF00F98446 /* HolaiPad */,
+				644F228F1CFF30BF00F98446 /* HolaiPadTests */,
+				644F229A1CFF30BF00F98446 /* HolaiPadUITests */,
+				644F22791CFF30BF00F98446 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		644F22791CFF30BF00F98446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644F22781CFF30BF00F98446 /* HolaiPad.app */,
+				644F228C1CFF30BF00F98446 /* HolaiPadTests.xctest */,
+				644F22971CFF30BF00F98446 /* HolaiPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644F227A1CFF30BF00F98446 /* HolaiPad */ = {
+			isa = PBXGroup;
+			children = (
+				644F227B1CFF30BF00F98446 /* AppDelegate.swift */,
+				644F227D1CFF30BF00F98446 /* ViewController.swift */,
+				644F227F1CFF30BF00F98446 /* Main.storyboard */,
+				644F22821CFF30BF00F98446 /* Assets.xcassets */,
+				644F22841CFF30BF00F98446 /* LaunchScreen.storyboard */,
+				644F22871CFF30BF00F98446 /* Info.plist */,
+			);
+			path = HolaiPad;
+			sourceTree = "<group>";
+		};
+		644F228F1CFF30BF00F98446 /* HolaiPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				644F22901CFF30BF00F98446 /* HolaiPadTests.swift */,
+				644F22921CFF30BF00F98446 /* Info.plist */,
+			);
+			path = HolaiPadTests;
+			sourceTree = "<group>";
+		};
+		644F229A1CFF30BF00F98446 /* HolaiPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				644F229B1CFF30BF00F98446 /* HolaiPadUITests.swift */,
+				644F229D1CFF30BF00F98446 /* Info.plist */,
+			);
+			path = HolaiPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		644F22771CFF30BF00F98446 /* HolaiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644F22A01CFF30BF00F98446 /* Build configuration list for PBXNativeTarget "HolaiPad" */;
+			buildPhases = (
+				644F22741CFF30BF00F98446 /* Sources */,
+				644F22751CFF30BF00F98446 /* Frameworks */,
+				644F22761CFF30BF00F98446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolaiPad;
+			productName = HolaiPad;
+			productReference = 644F22781CFF30BF00F98446 /* HolaiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		644F228B1CFF30BF00F98446 /* HolaiPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644F22A31CFF30BF00F98446 /* Build configuration list for PBXNativeTarget "HolaiPadTests" */;
+			buildPhases = (
+				644F22881CFF30BF00F98446 /* Sources */,
+				644F22891CFF30BF00F98446 /* Frameworks */,
+				644F228A1CFF30BF00F98446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644F228E1CFF30BF00F98446 /* PBXTargetDependency */,
+			);
+			name = HolaiPadTests;
+			productName = HolaiPadTests;
+			productReference = 644F228C1CFF30BF00F98446 /* HolaiPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		644F22961CFF30BF00F98446 /* HolaiPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644F22A61CFF30BF00F98446 /* Build configuration list for PBXNativeTarget "HolaiPadUITests" */;
+			buildPhases = (
+				644F22931CFF30BF00F98446 /* Sources */,
+				644F22941CFF30BF00F98446 /* Frameworks */,
+				644F22951CFF30BF00F98446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644F22991CFF30BF00F98446 /* PBXTargetDependency */,
+			);
+			name = HolaiPadUITests;
+			productName = HolaiPadUITests;
+			productReference = 644F22971CFF30BF00F98446 /* HolaiPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644F22701CFF30BE00F98446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NextU;
+				TargetAttributes = {
+					644F22771CFF30BF00F98446 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					644F228B1CFF30BF00F98446 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 644F22771CFF30BF00F98446;
+					};
+					644F22961CFF30BF00F98446 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 644F22771CFF30BF00F98446;
+					};
+				};
+			};
+			buildConfigurationList = 644F22731CFF30BF00F98446 /* Build configuration list for PBXProject "HolaiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 644F226F1CFF30BE00F98446;
+			productRefGroup = 644F22791CFF30BF00F98446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				644F22771CFF30BF00F98446 /* HolaiPad */,
+				644F228B1CFF30BF00F98446 /* HolaiPadTests */,
+				644F22961CFF30BF00F98446 /* HolaiPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		644F22761CFF30BF00F98446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644F22861CFF30BF00F98446 /* LaunchScreen.storyboard in Resources */,
+				644F22831CFF30BF00F98446 /* Assets.xcassets in Resources */,
+				644F22811CFF30BF00F98446 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644F228A1CFF30BF00F98446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644F22951CFF30BF00F98446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		644F22741CFF30BF00F98446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644F227E1CFF30BF00F98446 /* ViewController.swift in Sources */,
+				644F227C1CFF30BF00F98446 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644F22881CFF30BF00F98446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644F22911CFF30BF00F98446 /* HolaiPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644F22931CFF30BF00F98446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644F229C1CFF30BF00F98446 /* HolaiPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		644F228E1CFF30BF00F98446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644F22771CFF30BF00F98446 /* HolaiPad */;
+			targetProxy = 644F228D1CFF30BF00F98446 /* PBXContainerItemProxy */;
+		};
+		644F22991CFF30BF00F98446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644F22771CFF30BF00F98446 /* HolaiPad */;
+			targetProxy = 644F22981CFF30BF00F98446 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		644F227F1CFF30BF00F98446 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644F22801CFF30BF00F98446 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		644F22841CFF30BF00F98446 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644F22851CFF30BF00F98446 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		644F229E1CFF30BF00F98446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		644F229F1CFF30BF00F98446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		644F22A11CFF30BF00F98446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolaiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.HolaiPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		644F22A21CFF30BF00F98446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolaiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.HolaiPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		644F22A41CFF30BF00F98446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HolaiPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.HolaiPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolaiPad.app/HolaiPad";
+			};
+			name = Debug;
+		};
+		644F22A51CFF30BF00F98446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HolaiPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.HolaiPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolaiPad.app/HolaiPad";
+			};
+			name = Release;
+		};
+		644F22A71CFF30BF00F98446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HolaiPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.HolaiPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HolaiPad;
+			};
+			name = Debug;
+		};
+		644F22A81CFF30BF00F98446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HolaiPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.HolaiPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HolaiPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		644F22731CFF30BF00F98446 /* Build configuration list for PBXProject "HolaiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644F229E1CFF30BF00F98446 /* Debug */,
+				644F229F1CFF30BF00F98446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644F22A01CFF30BF00F98446 /* Build configuration list for PBXNativeTarget "HolaiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644F22A11CFF30BF00F98446 /* Debug */,
+				644F22A21CFF30BF00F98446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		644F22A31CFF30BF00F98446 /* Build configuration list for PBXNativeTarget "HolaiPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644F22A41CFF30BF00F98446 /* Debug */,
+				644F22A51CFF30BF00F98446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		644F22A61CFF30BF00F98446 /* Build configuration list for PBXNativeTarget "HolaiPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644F22A71CFF30BF00F98446 /* Debug */,
+				644F22A81CFF30BF00F98446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 644F22701CFF30BE00F98446 /* Project object */;
+}
