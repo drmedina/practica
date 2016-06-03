@@ -12,8 +12,6 @@
 		644F22811CFF30BF00F98446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644F227F1CFF30BF00F98446 /* Main.storyboard */; };
 		644F22831CFF30BF00F98446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644F22821CFF30BF00F98446 /* Assets.xcassets */; };
 		644F22861CFF30BF00F98446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644F22841CFF30BF00F98446 /* LaunchScreen.storyboard */; };
-		644F22911CFF30BF00F98446 /* HolaiPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F22901CFF30BF00F98446 /* HolaiPadTests.swift */; };
-		644F229C1CFF30BF00F98446 /* HolaiPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F229B1CFF30BF00F98446 /* HolaiPadUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		644F22851CFF30BF00F98446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		644F22871CFF30BF00F98446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		644F228C1CFF30BF00F98446 /* HolaiPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaiPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		644F22901CFF30BF00F98446 /* HolaiPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaiPadTests.swift; sourceTree = "<group>"; };
-		644F22921CFF30BF00F98446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		644F22971CFF30BF00F98446 /* HolaiPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaiPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		644F229B1CFF30BF00F98446 /* HolaiPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaiPadUITests.swift; sourceTree = "<group>"; };
-		644F229D1CFF30BF00F98446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				644F227A1CFF30BF00F98446 /* HolaiPad */,
-				644F228F1CFF30BF00F98446 /* HolaiPadTests */,
-				644F229A1CFF30BF00F98446 /* HolaiPadUITests */,
 				644F22791CFF30BF00F98446 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				644F22871CFF30BF00F98446 /* Info.plist */,
 			);
 			path = HolaiPad;
-			sourceTree = "<group>";
-		};
-		644F228F1CFF30BF00F98446 /* HolaiPadTests */ = {
-			isa = PBXGroup;
-			children = (
-				644F22901CFF30BF00F98446 /* HolaiPadTests.swift */,
-				644F22921CFF30BF00F98446 /* Info.plist */,
-			);
-			path = HolaiPadTests;
-			sourceTree = "<group>";
-		};
-		644F229A1CFF30BF00F98446 /* HolaiPadUITests */ = {
-			isa = PBXGroup;
-			children = (
-				644F229B1CFF30BF00F98446 /* HolaiPadUITests.swift */,
-				644F229D1CFF30BF00F98446 /* Info.plist */,
-			);
-			path = HolaiPadUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +167,7 @@
 				TargetAttributes = {
 					644F22771CFF30BF00F98446 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9ZZ523WWX2;
 					};
 					644F228B1CFF30BF00F98446 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -265,7 +240,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				644F22911CFF30BF00F98446 /* HolaiPadTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				644F229C1CFF30BF00F98446 /* HolaiPadUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +374,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HolaiPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.HolaiPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -412,10 +389,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HolaiPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.HolaiPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -484,6 +465,7 @@
 				644F22A21CFF30BF00F98446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		644F22A31CFF30BF00F98446 /* Build configuration list for PBXNativeTarget "HolaiPadTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +474,7 @@
 				644F22A51CFF30BF00F98446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		644F22A61CFF30BF00F98446 /* Build configuration list for PBXNativeTarget "HolaiPadUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +483,7 @@
 				644F22A81CFF30BF00F98446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
